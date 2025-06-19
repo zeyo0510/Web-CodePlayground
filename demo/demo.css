@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #4a6fa5;
+}
+
+#demoBtn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  
+  background-color: #4a6fa5;
+  
+  color: white;
+  
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+#demoBtn:hover {
+  background-color: #166088;
+}

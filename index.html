@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code Playground</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <span class="header">
+    <span id="title-info" class="title"></span>
+    <span class="buttons">
+      <button id="fullscreen-button" class="material-icons-outlined button"></button>
+      <button id="run-button" class="material-icons-outlined button"></button>
+    </span>
+  </span>
+  <span class="playground">
+    <span class="tabs">
+      <span id="html-tab" class="tab" data-target="html-content"></span>
+      <span id="css-tab" class="tab" data-target="css-content"></span>
+      <span id="js-tab" class="tab" data-target="js-content"></span>
+      <span id="preview-tab" class="tab" data-target="preview-content"></span>
+    </span>
+    <span class="contents">
+      <span id="html-content" class="content">
+        <textarea id="html-editor" class="editor"></textarea>
+      </span>
+      <span id="css-content" class="content">
+        <textarea id="css-editor" class="editor"></textarea>
+      </span>
+      <span id="js-content" class="content">
+        <textarea id="js-editor" class="editor"></textarea>
+      </span>
+      <span id="preview-content" class="content">
+        <iframe id="preview-webview" class="webview"></iframe>
+      </span>
+    </span>
+  </span>
+  <span class="footer">
+    <span id="copyright-info" class="copyright"></span>
+    <span class="links">
+      <a id="github-link" class="link" data-url="https://github.com/zeyo0510"></a>
+    </span>
+  </span>
+  <script src="script.js"></script>
+</body>
+</html>
